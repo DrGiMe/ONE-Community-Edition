@@ -1,0 +1,31 @@
+nombre:
+  "Inventario simple"
+
+objetivo:
+  crear una aplicacion simple para administrar productos e inventario
+
+usuarios:
+  - personas
+
+entidades:
+  producto:
+    nombre texto
+    categoria texto opcional
+    precio decimal
+    existencia numero
+
+funciones:
+  - crear producto
+  - editar producto
+  - eliminar producto
+  - buscar producto
+  - exportar inventario
+
+restricciones:
+  - no permitir nombre vacio
+  - no permitir existencia negativa
+
+plataformas:
+  - web
+
+crear
