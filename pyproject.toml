@@ -1,0 +1,18 @@
+[project]
+name = "one-community"
+version = "0.1.0"
+description = "Lenguaje de intención computable para crear apps simples"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "ONE Community"}]
+
+[project.scripts]
+one = "one.cli:main"
+one-studio = "one.studio:OneStudio"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
