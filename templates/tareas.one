@@ -1,0 +1,28 @@
+nombre:
+  "Lista de tareas"
+
+objetivo:
+  crear una aplicación simple para administrar tareas personales
+
+usuarios:
+  - personas
+
+entidades:
+  tarea:
+    titulo texto
+    descripcion texto opcional
+    completada booleano defecto falso
+
+funciones:
+  - crear tarea
+  - editar tarea
+  - eliminar tarea
+  - buscar tarea
+
+restricciones:
+  - no permitir titulo vacío
+
+plataformas:
+  - web
+
+crear
